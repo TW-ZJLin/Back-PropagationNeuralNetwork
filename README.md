@@ -30,4 +30,5 @@ Building a binary classification problem with 2D features (x, y).<br>
 Where -10 < x, y < 10, and the size of dataset = 20000.<br>
 If x+y>0, it is classified into the first category and labeled as [1, 0].<br>
 Otherwise, classify the others into the second category and label them as [0, 1].<br>
+The schematic is shown below.<br>
 ![](https://github.com/TW-ZJLin/Back-PropagationNeuralNetwork/blob/main/Figures/TrainingDataset.jpg)<br>
