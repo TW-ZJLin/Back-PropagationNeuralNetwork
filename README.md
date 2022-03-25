@@ -41,10 +41,13 @@ Loss History:<br>
 ![](https://github.com/TW-ZJLin/Back-PropagationNeuralNetwork/blob/main/Figures/LossHistory.jpg)<br>
 
 Weights History:<br>
+Weights History collects all weights into a list, and the user can select the layer to be displayed.<br>
 ![](https://github.com/TW-ZJLin/Back-PropagationNeuralNetwork/blob/main/Figures/WeightsHistory.jpg)<br>
 
 Testing:<br>
-  
+Evenly distribute 201*201 points in the interval -10 <= x, y <= 10,<br>
+a total of 40401 points to verify the correctness of the model.<br>
+And the final classification results are shown in the figure below.<br>
 ![](https://github.com/TW-ZJLin/Back-PropagationNeuralNetwork/blob/main/Figures/Testing.jpg)<br>
   
   
