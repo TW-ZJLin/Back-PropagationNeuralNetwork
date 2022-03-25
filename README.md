@@ -6,7 +6,7 @@ This program is customizable with the number of layers in the model, and the num
 The Changes in loss and weights during training can be recorded, and display their records when the training finished.<br>
 The activation function use Sigmoid in hidden layers and Softmax in the output layer.<br>
 The model use CrossEntropy as loss function and Adaptive Moment Estimation(ADAM) as optimizer.<br>
-Taking simple binary classification as a verification example, the accuracy of 99.68% can be achieved after 18.33 seconds of training.<BR>
+Taking simple binary classification as a verification example, the accuracy of 99.64% can be achieved after 17.67 seconds of training.<BR>
 
 ### Class : Fully Connected Layer<br>
 This class has the following methods:<br>
@@ -35,7 +35,7 @@ The schematic is shown below.<br>
 ![](https://github.com/TW-ZJLin/Back-PropagationNeuralNetwork/blob/main/Figures/TrainingDataset.jpg)<br>
 
 ### Training Time and Accuracy
-The accuracy of 99.68% can be achieved after 18.33 seconds of training.<br>
+The accuracy of 99.64% can be achieved after 17.67 seconds of training.<br>
 ![](https://github.com/TW-ZJLin/Back-PropagationNeuralNetwork/blob/main/Figures/Accuracy.jpg)<br>
 
 ### Loss and Weights History
