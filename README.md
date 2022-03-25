@@ -1,5 +1,5 @@
 # BackPropagation Neural Network
-Implement Back-Propagation Neural Network without any machine learning and deep learning package.<br>
+Implement BackPropagation Neural Network without any machine learning or deep learning package.<br>
 
 ## Introduction
 This program is **customizable** with the number of layers in the model, and the number of neurons in the layers.<br>
