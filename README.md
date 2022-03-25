@@ -1,4 +1,4 @@
-# Back-PropagationNeuralNetwork
+# Back-Propagation Neural Network
 Implement Back-Propagation Neural Network without any machine learning and deep learning package.<br>
 
 ## Introduction
