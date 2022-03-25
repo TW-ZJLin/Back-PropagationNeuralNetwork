@@ -2,7 +2,9 @@
 Implement Back-Propagation Neural Network without any machine learning and deep learning package.<br>
 This program is customizable with the number of layers in the model, and the number of neurons in the layers.<br>
 The Changes in loss and weights during training can be recorded, and display their records when the training finished.<br>
-Using two class:<br>
+The activation function use Sigmoid in the hidden layer and Softmax in the output layer.<br>
+The model use CrossEntropy as loss function and Adaptive Moment Estimation(ADAM) as optimizer.<br>
+
 
 ### Class : Fully Connected Layer<br>
 This class has the following methods:<br>
