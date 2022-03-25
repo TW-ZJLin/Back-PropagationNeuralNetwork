@@ -1,5 +1,7 @@
 # Back-PropagationNeuralNetwork
 Implement Back-Propagation Neural Network without any machine learning and deep learning package.<br>
+This program is customizable with the number of layers in the model, and the number of neurons in the layers.<br>
+The Changes in loss and weights during training can be recorded, and display their records when the training finished.<br>
 Using two class:<br>
 
 ### Class : Fully Connected Layer<br>
