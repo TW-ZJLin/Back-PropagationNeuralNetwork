@@ -32,3 +32,22 @@ If x+y>0, it is classified into the first category and labeled as [1, 0].<br>
 Otherwise, classify the others into the second category and label them as [0, 1].<br>
 The schematic is shown below.<br>
 ![](https://github.com/TW-ZJLin/Back-PropagationNeuralNetwork/blob/main/Figures/TrainingDataset.jpg)<br>
+
+The accuracy of 99.68% can be achieved after 18.33 seconds of training.<br>
+![](https://github.com/TW-ZJLin/Back-PropagationNeuralNetwork/blob/main/Figures/Accuracy.jpg)<br>
+
+The Changes in loss and weights during training can be recorded as shown below.<br>
+Loss History:<br>
+![](https://github.com/TW-ZJLin/Back-PropagationNeuralNetwork/blob/main/Figures/LossHistory.jpg)<br>
+
+Weights History:<br>
+![](https://github.com/TW-ZJLin/Back-PropagationNeuralNetwork/blob/main/Figures/WeightsHistory.jpg)<br>
+
+Testing:<br>
+  
+![](https://github.com/TW-ZJLin/Back-PropagationNeuralNetwork/blob/main/Figures/Testing.jpg)<br>
+  
+  
+  
+
+
