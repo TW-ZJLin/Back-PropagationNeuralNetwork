@@ -34,6 +34,41 @@ Otherwise, classify the others into the second category and label them as [0, 1]
 The schematic is shown below.<br>
 ![](https://github.com/TW-ZJLin/Back-PropagationNeuralNetwork/blob/main/Figures/TrainingDataset.jpg)<br>
 
+### Model Construction
+'''py
+# Set batch size and epoch
+#-------------------------------------------------------------------------------
+batch_size = 500
+epoch = 10
+
+# Create model, set dimension of feature(input) and label(output)
+#-------------------------------------------------------------------------------
+MyModel = NeuralNetwork( input_size=2, output_size=2, batch_size=batch_size, epoch=epoch )
+
+# Create layer, set dimension of layer input and number of neuron 
+#-------------------------------------------------------------------------------
+layer1 = FullyConnectedLayer( input_size=2, neuron_size=16 )
+layer2 = FullyConnectedLayer( input_size=16, neuron_size=32 )
+layer3 = FullyConnectedLayer( input_size=32, neuron_size=2, is_output_layer=True )
+
+# Add layers into the model
+#-------------------------------------------------------------------------------
+MyModel.AddLayer(layer1)
+MyModel.AddLayer(layer2)
+MyModel.AddLayer(layer3)
+
+# Input training data to the model
+#-------------------------------------------------------------------------------
+MyModel.InputTrainingData(training_set)
+
+# Start training, show training time and accuracy
+#-------------------------------------------------------------------------------
+time_start = time.time()
+loss_history, weight_history = MyModel.Train()
+print(f"Training Time: {round(time.time()-time_start,5)}s")
+print(f"Accuracy: {round((1-loss_history[-1])*100,5)}")
+'''
+  
 ### Training Time and Accuracy
 The accuracy of 99.64% can be achieved after 17.67 seconds of training.<br>
 ![](https://github.com/TW-ZJLin/Back-PropagationNeuralNetwork/blob/main/Figures/Accuracy.jpg)<br>
