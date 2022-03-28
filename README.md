@@ -14,7 +14,7 @@ Taking simple binary **classification** as a **verification example**, the accur
 Using Gaussian distribution(mean=0; Standard Deviation=1) for random **weights initialization**.<br>
 Default: **Sigmoid Function** as the **Activation Function** for hidden layer, **Softmax Function** as the **Activation Function** for output layer.<br>
 Using **Adaptive Moment Estimation(Adam)** as the **Optimizer** to update the weights and decay the learning rate.<br>
-This class has the following methods:<br>
+#### This class has the following methods:<br>
   1. Chain Rule Calculation for Back-Propagation
   2. Forward Transform
   3. Update Weights
@@ -23,12 +23,14 @@ This class has the following methods:<br>
 <br>
 
 ### Class : Neural Network<br>
+Default: **Cross Entropy** as the **Loss Function**.<br>
 This class has the following methods:<br>
   1. Input Training Data
   2. Add layers into the model
-  3. Loss Function with Cross Entropy
-  4. Loss Function with Mean Square Error (MSE)
-  5. Training
+  3. Forward Transform of the entire model
+  4. Loss Function and its derivative
+  5. Training with customizable batch size and epoch
+  6. Record overall changes in weights and loss
 <br>
 
 ## Implement
