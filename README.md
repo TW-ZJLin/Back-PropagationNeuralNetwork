@@ -36,33 +36,8 @@ The schematic is shown below.<br>
 
 ### Model Construction
 '''py
-# Set batch size and epoch
-#-------------------------------------------------------------------------------
 batch_size = 500
 epoch = 10
-
-# Create model, set dimension of feature(input) and label(output)
-#-------------------------------------------------------------------------------
-MyModel = NeuralNetwork( input_size=2, output_size=2, batch_size=batch_size, epoch=epoch )
-
-# Create layer, set dimension of layer input and number of neuron 
-#-------------------------------------------------------------------------------
-layer1 = FullyConnectedLayer( input_size=2, neuron_size=16 )
-layer2 = FullyConnectedLayer( input_size=16, neuron_size=32 )
-layer3 = FullyConnectedLayer( input_size=32, neuron_size=2, is_output_layer=True )
-
-# Add layers into the model
-#-------------------------------------------------------------------------------
-MyModel.AddLayer(layer1)
-MyModel.AddLayer(layer2)
-MyModel.AddLayer(layer3)
-
-# Input training data to the model
-#-------------------------------------------------------------------------------
-MyModel.InputTrainingData(training_set)
-
-# Start training, show training time and accuracy
-#-------------------------------------------------------------------------------
 time_start = time.time()
 loss_history, weight_history = MyModel.Train()
 print(f"Training Time: {round(time.time()-time_start,5)}s")
