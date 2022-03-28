@@ -3,7 +3,7 @@ Implement BackPropagation Neural Network without any machine learning or deep le
 <br>
 
 ## Introduction
-This program is **customizable** with model and number of neurons.<br>
+This program is **customizable** with model size and number of neurons.<br>
 The Changes in **loss** and **weights** during training can be **recorded**, and display their records when the training finished.<br>
 The activation function use **Sigmoid** in hidden layers and **Softmax** in the output layer.<br>
 The model use **CrossEntropy** as **loss function** and **Adaptive Moment Estimation(ADAM)** as **optimizer**.<br>
