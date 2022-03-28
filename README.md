@@ -4,14 +4,14 @@ Implement BackPropagation Neural Network without any machine learning or deep le
 
 ## Introduction
 This program is **customizable** with model size and number of neurons.<br>
-The Changes in **loss** and **weights** during training can be **recorded**, and display their records when the training finished.<br>
+The changes in **loss** and **weights** during training can be **recorded**, and display when the training finished.<br>
 The activation function use **Sigmoid** in hidden layers and **Softmax** in the output layer.<br>
-The model use **CrossEntropy** as **loss function** and **Adaptive Moment Estimation(ADAM)** as **optimizer**.<br>
-Taking simple binary **classification** as a **verification example**, the accuracy of 99.64% can be achieved after 17.67 seconds of training.<BR>
+Using **CrossEntropy** as **loss function** and **Adaptive Moment Estimation(ADAM)** as **optimizer**.<br>
+Taking simple binary **classification** as a **verification example**, the accuracy of 99.64% can be achieved after 17.67 seconds of training.<br>
 <br>
 
 ### Class : Fully Connected Layer<br>
-Using Gaussian distribution(mean=0; Standard Deviation=1) for random **weights initialization**.<br>
+Using **Gaussian distribution**(mean=0; Standard Deviation=1) for random **weights initialization**.<br>
 Default: **Sigmoid Function** as the **Activation Function** for hidden layer, **Softmax Function** as the **Activation Function** for output layer.<br>
 Using **Adaptive Moment Estimation(Adam)** as the **Optimizer** to update the weights and decay the learning rate.<br>
 #### This class has the following methods:<br>
