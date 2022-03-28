@@ -35,14 +35,15 @@ The schematic is shown below.<br>
 ![](https://github.com/TW-ZJLin/Back-PropagationNeuralNetwork/blob/main/Figures/TrainingDataset.jpg)<br>
 
 ### Model Construction
-'''python
-batch_size = 500
-epoch = 10
-time_start = time.time()
-loss_history, weight_history = MyModel.Train()
-print(f"Training Time: {round(time.time()-time_start,5)}s")
-print(f"Accuracy: {round((1-loss_history[-1])*100,5)}")
-'''
+```javascript
+var s = "JavaScript 語法高亮";
+alert(s);
+```
+ 
+```python
+s = "Python 語法高亮"
+print s
+```
   
 ### Training Time and Accuracy
 The accuracy of 99.64% can be achieved after 17.67 seconds of training.<br>
