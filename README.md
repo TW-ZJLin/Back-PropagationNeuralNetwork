@@ -34,7 +34,6 @@ This class has the following methods:<br>
 <br>
 
 ## Implement
-<br>
 ### Training Dataset
 Building a binary classification problem with 2D features (x, y).<br>
 Where -10 < x, y < 10, and the size of dataset = 20000.<br>
