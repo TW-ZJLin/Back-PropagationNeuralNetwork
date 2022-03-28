@@ -35,7 +35,7 @@ The schematic is shown below.<br>
 ![](https://github.com/TW-ZJLin/Back-PropagationNeuralNetwork/blob/main/Figures/TrainingDataset.jpg)<br>
 
 ### Model Construction
-'''py
+'''python
 batch_size = 500
 epoch = 10
 time_start = time.time()
