@@ -11,13 +11,16 @@ Taking simple binary **classification** as a **verification example**, the accur
 <br>
 
 ### Class : Fully Connected Layer<br>
+Using Gaussian distribution(mean=0; Standard Deviation=1) for random **weights initialization**.
+Default: **Sigmoid Function** as the **Activation Function** for hidden layer, **Softmax Function** as the **Activation Function** for output layer.
+Using **Adaptive Moment Estimation(Adam)** as the **Optimizer** to update the weights and decay the learning rate.
+
 This class has the following methods:<br>
   1. Chain Rule Calculation for Back-Propagation
-  2. Update Weights
-  3. Show Weights
-  4. Reset Derivative
-  5. Optimizer with Adaptive Moment Estimation (Adam)
-  6. Activation Function with Sigmoid Function
+  2. Forward Transform
+  3. Update Weights
+  4. Show Weights
+  5. Reset Derivative
 <br>
 
 ### Class : Neural Network<br>
