@@ -44,6 +44,8 @@ The schematic is shown below.<br>
 <br>
   
 ### Model Construction
+This program can build customized models according to different objects.<br>
+Users can tune model parameters to achieve higher accuracy.<br>
 ```python
 # Set batch size and epoch
 #-------------------------------------------------------------------------------
