@@ -33,7 +33,7 @@ This class has the following methods:<br>
   6. Record overall changes in weights and loss
 <br>
 
-## Implement
+## Demonstration
 ### Training Dataset
 Building a binary classification problem with 2D features (x, y).<br>
 Where -10 < x, y < 10, and the size of dataset = 20000.<br>
