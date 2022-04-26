@@ -36,8 +36,8 @@ This class has the following methods:<br>
 ## Demonstration
 ### Training Dataset
 Building a binary classification problem with 2D features (x, y).<br>
-Where -10 < x, y < 10, and the size of dataset = 20000.<br>
-If x+y>0, it is classified into the first category and labeled as [1, 0].<br>
+Where -10 < x, y < 10, and the size of dataset = 30000.<br>
+If x+y > 2*sin( 2*pi*(x-y) / (10*sqrt(2)) ), it is classified into the first category and labeled as [1, 0].<br>
 Otherwise, classify the others into the second category and label them as [0, 1].<br>
 The schematic is shown below.<br>
 ![](https://github.com/TW-ZJLin/Back-PropagationNeuralNetwork/blob/main/Figures/TrainingDataset.jpg)<br>
@@ -49,8 +49,8 @@ Users can tune model parameters to achieve higher accuracy.<br>
 ```python
 # Set batch size and epoch
 #-------------------------------------------------------------------------------
-batch_size = 500
-epoch = 10
+batch_size = 1000
+epoch = 100
 
 # Create model, set dimension of feature(input) and label(output)
 #-------------------------------------------------------------------------------
@@ -82,7 +82,7 @@ print(f"Accuracy: {round((1-loss_history[-1])*100,5)}")
 <br>
 
 ### Training Time and Accuracy
-The accuracy of 99.64% can be achieved after 17.67 seconds of training.<br>
+The accuracy of 99.53% can be achieved after 252 seconds of training.<br>
 ![](https://github.com/TW-ZJLin/Back-PropagationNeuralNetwork/blob/main/Figures/Accuracy.jpg)<br>
 <br>
 
