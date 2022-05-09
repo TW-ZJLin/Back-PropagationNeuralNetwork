@@ -7,7 +7,7 @@ This program is **customizable** with model size and number of neurons.<br>
 The changes in **loss** and **weights** during training can be **recorded**, and display when the training finished.<br>
 The activation function use **Sigmoid** in hidden layers and **Softmax** in the output layer.<br>
 Using **CrossEntropy** as **loss function** and **Adaptive Moment Estimation(ADAM)** as **optimizer**.<br>
-Taking simple binary **classification** as a **verification example**, the accuracy of 99.53% can be achieved after 252 seconds of training.<br>
+Taking simple binary **classification** as a **verification example**, the accuracy 99.53% can be achieved after 252 seconds of training.<br>
 <br>
 
 ### Class : Fully Connected Layer<br>
